@@ -1,13 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myproject2/widjets/detail_page.dart';
-import 'package:myproject2/widjets/home_page.dart';
-import 'package:myproject2/widjets/page1.dart';
-import 'package:myproject2/widjets/page2.dart';
-import 'package:myproject2/widjets/page3.dart';
-import 'package:myproject2/widjets/page4.dart';
-import 'package:myproject2/widjets/page5.dart';
-import 'package:myproject2/widjets/page6.dart';
-import 'package:myproject2/widjets/page7.dart';
+
+import 'package:myproject2/widjets/page8.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: Page7(),
+      home: Page8(),
     );
   }
 }
